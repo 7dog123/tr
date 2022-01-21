@@ -32,6 +32,9 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          git clone https://github.com/nvllsvm/jpeg8d
-          cd jpeg8d
-          tr -d '\r'ltmain.sh
+          sudo apt-get update
+          sudo apt-get -y install mingw*
+          $OSTYPE
+          #git clone https://github.com/nvllsvm/jpeg8d
+          #cd jpeg8d
+          #tr -d '\r'ltmain.sh
