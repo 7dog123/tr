@@ -34,7 +34,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get -y install mingw*
-          $OSTYPE
+          uname
           #git clone https://github.com/nvllsvm/jpeg8d
           #cd jpeg8d
           #tr -d '\r'ltmain.sh
